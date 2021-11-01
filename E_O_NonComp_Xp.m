@@ -1,5 +1,5 @@
 % Integral variable of the EnvZ-OmpR network with a non-competitive
-% inhibitor targeting X_p and XT (Reaction system )
+% inhibitor targeting X_p (Reaction system )
 
 k1 = sym('k1', 'positive');
 k2 = sym('k2', 'positive');
