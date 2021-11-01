@@ -1,5 +1,15 @@
 % Integral variable of the EnvZ-OmpR network
 
+k1 = sym('k1', 'positive');
+k2 = sym('k2', 'positive');
+k3 = sym('k3', 'positive');
+k4 = sym('k4', 'positive');
+k5 = sym('k5', 'positive');
+k6 = sym('k6', 'positive');
+k7 = sym('k7', 'positive');
+k8 = sym('k8', 'positive');
+k9 = sym('k9', 'positive');
+
 M =[-k1 k2 0 0 k6 0 0 0 0 ;
      k1 -k2-k3 0 0 0 0 -k7 k8+k9 0 ;
       0 k3 0 -k4 k5 0 0 0 0 ;

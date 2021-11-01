@@ -11,6 +11,7 @@ k7 = sym('k7', 'positive');
 k8 = sym('k8', 'positive');
 k9 = sym('k9', 'positive');
 k10 = sym('k10', 'positive');
+
 a1 = sym('a1', 'positive');
 a2 = sym('a2', 'positive');
 

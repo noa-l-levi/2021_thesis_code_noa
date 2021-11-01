@@ -1,6 +1,20 @@
 % Integral variable of the EnvZ-OmpR network with a competitive inhibitor
 % targeting XT
 
+k1 = sym('k1', 'positive');
+k2 = sym('k2', 'positive');
+k3 = sym('k3', 'positive');
+k4 = sym('k4', 'positive');
+k5 = sym('k5', 'positive');
+k6 = sym('k6', 'positive');
+k7 = sym('k7', 'positive');
+k8 = sym('k8', 'positive');
+k9 = sym('k9', 'positive');
+
+a1 = sym('a1', 'positive');
+a2 = sym('a2', 'positive');
+
+
 M = [-a1 a2 0 0 0 0 0 0 0 0 0 ;
      -a1 a2 k1 -k2-k3 0 0 0 0 -k7 k8+k9 0 ;
       a1 -a2 0 0 0 0 0 0 0 0 0 ;

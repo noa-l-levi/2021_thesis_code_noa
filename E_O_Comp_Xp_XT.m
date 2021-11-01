@@ -9,6 +9,7 @@ k6 = sym('k6', 'positive');
 k7 = sym('k7', 'positive');
 k8 = sym('k8', 'positive');
 k9 = sym('k9', 'positive');
+
 a1 = sym('a1', 'positive');
 a2 = sym('a2', 'positive');
 a3 = sym('a3', 'positive');
